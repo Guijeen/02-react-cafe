@@ -12,7 +12,6 @@ export default function VoteOptions({
   onReset,
   canReset,
 }: VoteOptionsProps) {
-  console.log(canReset);
   return (
     <div className={css.container}>
       <button className={css.button} onClick={() => onVote("good")}>
